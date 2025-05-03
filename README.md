@@ -7,8 +7,6 @@ This project uses a Machine Learning model to detect **machine faults** using se
 ## 🚀 Demo (Streamlit App)
 
 Run the app locally using:
-
-```bash
 streamlit run app.py
 
 🧠 ML Model
@@ -31,9 +29,7 @@ Target: machine_failure (0 = No Failure, 1 = Failure)
 
 
 🗂️ Project Structure
-csharp
-Copy
-Edit
+
 fault_detection_sensors/
 ├── app.py                     ← Streamlit frontend
 ├── fault_detection_model.pkl  ← Trained ML model
@@ -67,9 +63,6 @@ The app lets you enter live sensor values and provides a prediction on whether t
 💾 Save & Load Model
 The model is saved using:
 
-python
-Copy
-Edit
 joblib.dump(model, 'fault_detection_model.pkl')
 It is then loaded inside the Streamlit app for real-time predictions.
 
