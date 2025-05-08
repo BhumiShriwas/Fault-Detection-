@@ -83,7 +83,9 @@ Matplotlib
 
 Joblib
 
-(All listed in requirements.txt)
+(All listed in requirements.txt) 
+
+check it in: http://localhost:8502/
 
 👨‍🔬 Author
 Name: Bhumika Shriwas
